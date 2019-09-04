@@ -23,7 +23,7 @@ class App extends Component {
 
   render() {
     return (
-      <div class="counter">
+      <div className="stepper">
         <button onClick={this.incrementCounter}>+</button>
         <h3>{this.state.counter}</h3>
         <button onClick={this.decrementCounter}>-</button>

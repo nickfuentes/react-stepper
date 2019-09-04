@@ -31,3 +31,30 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.stepper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  width: 600px;
+  height: 300px;
+  color: white;
+  background-color: lightsteelblue;
+}
+
+.stepper * {
+  margin: 30px;
+  font-size: 60px;
+  color: white;
+}
